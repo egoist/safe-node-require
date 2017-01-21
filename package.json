@@ -1,6 +1,6 @@
 {
   "name": "safe-node-require",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "require without throwing if required module does not exist",
   "repository": {
     "url": "egoist/safe-node-require",
