@@ -1,0 +1,31 @@
+{
+  "name": "safe-node-require",
+  "version": "0.0.0",
+  "description": "require without throwing if required module does exists",
+  "repository": {
+    "url": "egoist/safe-node-require",
+    "type": "git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jest test.js && npm run lint",
+    "lint": "xo"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest-cli": "^18.1.0",
+    "saikou": "^1.1.0",
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "space": 2,
+    "semicolon": false
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
