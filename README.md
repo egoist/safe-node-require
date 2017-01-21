@@ -22,6 +22,8 @@ req('./bar')
 //=> {} the module
 ```
 
+the relative path is relative to `process.cwd()`
+
 ## Contributing
 
 1. Fork it!
